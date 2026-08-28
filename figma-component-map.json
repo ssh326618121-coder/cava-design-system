@@ -1,0 +1,47 @@
+{
+  "CavaButton": {
+    "figmaNodeId": "273:17012",
+    "figmaName": "按钮",
+    "source": "src/components/Button.tsx"
+  },
+  "CavaInput": {
+    "figmaNodeId": "273:23870",
+    "figmaName": "输入框",
+    "source": "src/components/Input.tsx"
+  },
+  "CavaSearch": {
+    "figmaNodeId": "184:3510",
+    "figmaName": "搜索框",
+    "source": "src/components/Search.tsx"
+  },
+  "CavaNavigation": {
+    "figmaNodeId": "116:1759",
+    "figmaName": "导航栏",
+    "source": "src/components/Navigation.tsx"
+  },
+  "RoomCard": {
+    "figmaNodeId": "112:2506",
+    "figmaName": "语音房/直播间列表",
+    "source": "src/components/RoomCard.tsx"
+  },
+  "UserListItem": {
+    "figmaNodeId": "192:22539",
+    "figmaName": "用户列表",
+    "source": "src/components/UserListItem.tsx"
+  },
+  "MessageRow": {
+    "figmaNodeId": "1092:128087",
+    "figmaName": "消息列表",
+    "source": "src/components/MessageRow.tsx"
+  },
+  "VipTab": {
+    "figmaNodeId": "1097:128160",
+    "figmaName": "VIP/选项卡",
+    "source": "src/components/VipTab.tsx"
+  },
+  "BottomTabBar": {
+    "figmaNodeId": "120:6501",
+    "figmaName": "标签栏icon",
+    "source": "src/components/BottomTabBar.tsx"
+  }
+}

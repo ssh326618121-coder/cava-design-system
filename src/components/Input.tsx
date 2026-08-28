@@ -1,0 +1,2 @@
+import React from "react";
+export function CavaInput({value="",placeholder="Enter an alias name",counter}:{value?:string;placeholder?:string;counter?:string}){return <div className="cava-input"><span>{value||placeholder}</span>{counter&&<span style={{marginLeft:"auto"}}>{counter}</span>}</div>}

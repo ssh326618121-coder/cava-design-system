@@ -1,0 +1,2 @@
+import React from "react";
+export function CavaNavigation({title,left,right}:{title?:string;left?:React.ReactNode;right?:React.ReactNode}){return <div className="cava-nav"><div>{left}</div><strong>{title}</strong><div>{right}</div></div>}

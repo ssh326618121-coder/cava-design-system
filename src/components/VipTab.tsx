@@ -1,0 +1,2 @@
+import React from "react";
+export function VipTab({label="VIP 1",selected=false}:{label?:string;selected?:boolean}){return <div className={`cava-vip-tab cava-vip-tab--${selected?"on":"off"}`}>{label}</div>}

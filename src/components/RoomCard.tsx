@@ -1,0 +1,2 @@
+import React from "react";
+export function RoomCard({tag="❤️ CP",title="🇯🇵 Room nickname..",meta="Audience · 9.99k"}:{tag?:string;title?:string;meta?:string}){return <div className="cava-room-card"><span className="cava-room-card__tag">{tag}</span><div className="cava-room-card__info"><div className="cava-meta">{meta}</div><div>{title}</div></div></div>}

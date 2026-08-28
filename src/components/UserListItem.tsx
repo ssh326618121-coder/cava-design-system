@@ -1,0 +1,2 @@
+import React from "react";
+export function UserListItem({name="Aurora",subtitle="I'm live streaming...",badge="VIP",action="👋 Hi"}:{name?:string;subtitle?:string;badge?:string;action?:string}){return <div className="cava-user-row"><div className="cava-avatar72"/><div style={{flex:1}}><div>{name} <small>{badge}</small></div><div className="cava-meta">{subtitle}</div></div><span>{action}</span></div>}

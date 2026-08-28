@@ -1,0 +1,2 @@
+import React from "react";
+export function CavaSearch({value="77889900"}:{value?:string}){return <div className="cava-search"><span>⌕</span><span>{value}</span><span style={{marginLeft:"auto"}}>×</span></div>}

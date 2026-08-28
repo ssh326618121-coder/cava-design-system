@@ -1,0 +1,2 @@
+import React from "react";
+export function MessageRow({name="Aurora",time="3:23 PM",message="Avatar Frame Magic Box Removed",unread}:{name?:string;time?:string;message?:string;unread?:number}){return <div className="cava-message-row"><div className="cava-avatar54"/><div className="cava-message-row__content"><div className="cava-message-row__top"><strong>{name}</strong><span className="cava-meta">{time}</span></div><div className="cava-message-row__bottom"><span className="cava-meta">{message}</span>{unread?<span>{unread}</span>:null}</div></div></div>}

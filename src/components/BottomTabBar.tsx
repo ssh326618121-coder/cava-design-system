@@ -1,0 +1,4 @@
+import React from "react";
+export type CavaTab="room"|"game"|"moments"|"messages"|"me";
+const items:{key:CavaTab;label:string}[]=[{key:"room",label:"Room"},{key:"game",label:"Game"},{key:"moments",label:"Moments"},{key:"messages",label:"Messages"},{key:"me",label:"Me"}];
+export function BottomTabBar({selected="room"}:{selected?:CavaTab}){return <nav className="cava-bottom-nav">{items.map(x=><div key={x.key} className={`cava-bottom-nav__item ${selected===x.key?"cava-bottom-nav__item--selected":""}`}><div className="cava-bottom-nav__icon">{x.key[0].toUpperCase()}</div><span>{x.label}</span></div>)}</nav>}
